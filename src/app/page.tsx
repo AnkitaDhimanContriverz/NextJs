@@ -6,7 +6,7 @@ export default function Page() {
   // return <Sidebar />;
   return (
     <div>
-      <Link href="/sidebar">sidebar</Link>
+      <Link href="/sidebar">View</Link>
       <br />
 
       <Link href="/counter">counter</Link>
