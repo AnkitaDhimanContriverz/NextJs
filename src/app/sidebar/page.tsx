@@ -2,7 +2,7 @@
 
 import { createContext, useContext, useState } from "react";
 import Image from "next/image";
-import imageShow from "./download.png";
+import imageShow from "../download.png";
 const SideBarContext = createContext({});
 
 export default function Sidebar() {

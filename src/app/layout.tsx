@@ -1,9 +1,7 @@
 import "./globals.css";
-import { Roboto  } from "next/font/google";
+import { Roboto } from "next/font/google";
 
-const inter = Roboto ({ weight: '400',
-subsets: ['latin'],
-display: 'swap', });
+const inter = Roboto({ weight: "400", subsets: ["latin"], display: "swap" });
 
 export const metadata = {
   title: "Next Js Practice",
