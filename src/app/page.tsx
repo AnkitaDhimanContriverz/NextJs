@@ -14,6 +14,8 @@ export default function Page() {
       <Link href="/profile">Profile Page</Link>
       <br />
       <Link href="/video">video upload</Link>
+      <br />
+      <Link href="/movie">movies</Link>
     </div>
   );
 }
