@@ -1,3 +1,4 @@
+
 import React, { useState, ChangeEvent, FormEvent } from "react";
 
 interface SearchProps {
@@ -20,13 +21,13 @@ const SearchBar = ({ onSearch }: SearchProps) => {
     <form onSubmit={handleSubmit}>
       <input
         type="text"
-        className="border border-black rounded-1 w-full py-2 px-4 "
+        className="border border-black rounded-1  py-2 px-4 "
         value={query}
         onChange={handleChange}
       />
       <button
         type="submit"
-        className="text-white py-2 px-6 hover:bg-blue-600 focus:outline-none"
+        className="text-white py-2 px-6 hover:bg-blue-600 focus:outline-none ml-3 rounded"
         style={{ backgroundColor: "red" }}
       >
         Search

@@ -11,11 +11,14 @@ export default function Page() {
 
       <Link href="/counter">counter</Link>
       <br />
+      <Link href='about'>About us</Link>
+      <br/>
       <Link href="/profile">Profile Page</Link>
       <br />
       <Link href="/video">video upload</Link>
       <br />
       <Link href="/movie">movies</Link>
+
     </div>
   );
 }
